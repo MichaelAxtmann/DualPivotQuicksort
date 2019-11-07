@@ -1,6 +1,6 @@
 ## DualPivotQuicksort for C++
 
-This repository contains the sorting algorithm BlockQuicksort [1] ported to **C++**. The interface supports a subset of ```std::sort```:
+This repository contains the sorting algorithm BlockQuicksort [1] ported to C++. The C++ version moves elements whenever possible and accepts an optional comparator. The interface supports a subset of ```std::sort```:
 ```
 dual_pivot_quicksort::sort(Iterator begin, Iterator end, [Comparator comp])
 ```
