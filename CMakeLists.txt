@@ -1,4 +1,5 @@
 # Copyright (c) 2019 Michael Axtmann <michael.axtmann@gmail.com>
+#
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 # 
 # This code is free software; you can redistribute it and/or modify it
@@ -23,7 +24,7 @@ cmake_minimum_required(VERSION 3.10)
 project(BlockQuickSort)
 
 add_library(dualpivotquicksort INTERFACE)
-target_include_directories(dualpivotquicksort INTERFACE dual_pivot_quicksort/)
+target_include_directories(dualpivotquicksort INTERFACE include/)
 
 add_executable(benchmark src/benchmark.cpp)
 target_link_libraries(benchmark dualpivotquicksort)

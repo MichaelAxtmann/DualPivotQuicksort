@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2019 Michael Axtmann <michael.axtmann@gmail.com>
+ * 
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
