@@ -24,11 +24,12 @@ DualPivotQuicksort> ./benchmark
 ```
 
 ### Usage
-If you want to use DualPivotQuicksort in our cmake project in executable *a*, include DualPivotQuicksort via ```#include <dual_pivot_quicksort.hpp>``` and add the following lines to you cmake file:
+If you want to use DualPivotQuicksort in our CMake project in executable *a*, include DualPivotQuicksort via ```#include <dual_pivot_quicksort.hpp>``` and add the following lines to you CMake file:
 ```
 add_subdirectory(path-to-this-repository)
 target_link_libraries(a dualpivotquicksort)
 ```
 
 [1] https://openjdk.java.net/
+
 [2] http://hg.openjdk.java.net/jdk/jdk/raw-file/tip/src/java.base/share/classes/java/util/DualPivotQuicksort.java
