@@ -30,5 +30,5 @@ add_subdirectory(path-to-this-repository)
 target_link_libraries(a dualpivotquicksort)
 ```
 
-[1] https://openjdk.java.net/
+[1] https://openjdk.java.net/ \
 [2] http://hg.openjdk.java.net/jdk/jdk/raw-file/tip/src/java.base/share/classes/java/util/DualPivotQuicksort.java
